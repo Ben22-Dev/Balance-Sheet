@@ -1,0 +1,91 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+}
+
+header h1 {
+    color: rgb(24, 24, 87); 
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.company {
+    font-weight: bolder;
+    font-size: 110%;
+    color: rgb(24, 24, 87);
+}
+
+.year {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(24, 24, 87);
+    color: white;
+    padding-right: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    color: rgb(54, 138, 234);
+}
+
+#element {
+    font-weight: bold;
+    margin-right: auto;
+    align-self: center;
+}
+
+.data {
+    margin-top: 20px;
+    height: 37px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:5%;
+    background-color: rgb(224, 224, 234);
+}
+
+.note {
+    margin-top: 7px;
+}
+
+.line {
+    width: 100%;
+    height:2px;
+    margin-bottom: 2px;
+    background-color: black;
+}
+
+.lastone {
+    margin-bottom: 20px;
+}
+
+article { 
+    padding: 0 15px 0 15px;
+}
+
+.total {
+    background-color: unset;
+    margin-top: -5px;
+}
+
+.total:hover {
+    background-color: rgb(136, 186, 247);
+}
+
